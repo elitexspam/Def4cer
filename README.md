@@ -1,5 +1,8 @@
 # Def4cer
 A Secure Version of CVE-2026-53787 Amasty Order Attribute File Upload Exploit,with the modification of file upload of txt to html.
+
+
+
 Uma Versão Segura da CVE-2026-53787 Amasty Order Attribute File Upload Exploit,com a modificação do carregamento de arquivo do TXT para HTML.
 
 ## Detalhes e Como Utilizar
