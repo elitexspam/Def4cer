@@ -12,13 +12,13 @@ Uma Versão Segura da CVE-2026-53787 Amasty Order Attribute File Upload Exploit,
 
 No Linux:
 
-git clone https://github.com/elitexspam/Def4cer
-entre na pasta Def4cer,
-modifique com o bloco de notas ou libreoffice,etc.
-na "POC_FILENAME" adicione o nome do seu arquivo html,por exemplo:elite.html
-no "POC_CONTENT" dentro das """ """,adicione o seu código html,
-pegue sua lista de sites vulneráveis e renomeie de:alvos.txt.
-pronto pra uso.
+- git clone https://github.com/elitexspam/Def4cer
+- entre na pasta Def4cer,
+- modifique com o bloco de notas ou libreoffice,etc.
+- na "POC_FILENAME" adicione o nome do seu arquivo html,por exemplo:elite.html
+- no "POC_CONTENT" dentro das """ """,adicione o seu código html,
+- pegue sua lista de sites vulneráveis e renomeie de:alvos.txt.
+- pronto pra uso.
 
 ## COMO EXECUTAR
 
